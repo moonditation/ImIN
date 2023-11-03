@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1026223860040",
+    "project_id": "better-001004",
+    "storage_bucket": "better-001004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026223860040:android:7f32cb058d0c426ed36b7d",
+        "android_client_info": {
+          "package_name": "better.than.now"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZIUoJfNe5NMvWAkXIiGFK6bF6hqbxjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026223860040:android:59f220153b8e1f63d36b7d",
+        "android_client_info": {
+          "package_name": "com.example.teamproject_best"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZIUoJfNe5NMvWAkXIiGFK6bF6hqbxjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
