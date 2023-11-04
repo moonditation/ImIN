@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+
+            android:text="거의 다왔어"
+            android:textSize="30sp" />
+
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/relative_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:padding="10sp"
+            android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/relative_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/relative_id_samecheck_button"
+            android:layout_below="@+id/relative_create_account"
+            android:hint="이름"
+
+            />
+        <EditText
+            android:id="@+id/relative_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:layout_toLeftOf="@id/relative_id_samecheck_button"
+            android:layout_below="@+id/relative_name"
+            />
+        <EditText
+            android:id="@+id/relative_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/relative_id_samecheck_button"
+
+            android:hint="pw:"
+            android:layout_below="@+id/relative_id"
+            />
+        <EditText
+            android:id="@+id/relative_check_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="pw 확인:"
+            android:layout_toLeftOf="@id/relative_id_samecheck_button"
+
+            android:layout_below="@+id/relative_pw"
+            />
+        <Button
+            android:id="@+id/relative_id_samecheck_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_name"
+            android:layout_alignParentRight="true"
+            android:text="중복확인"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail 인증"
+            android:padding="10sp"
+            android:textSize="30sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp">
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mail:"
+                android:layout_toLeftOf="@+id/relative_checkmail"
+            />
+            <Button
+                android:id="@+id/relative_checkmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="인증번호 발송"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:padding="20sp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원 가입하기" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
