@@ -115,6 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Mail:"
+                android:inputType="textEmailAddress"
                 android:layout_toLeftOf="@+id/relative_checkmail"
             />
             <Button
